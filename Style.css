@@ -8,11 +8,12 @@
 
 .button{
     margin-left: 30px;
-    margin-top: 20px;
+    margin-top: 40px;
     border-radius: 50px;
-    height: 50px;
-    width: 250px;
-    background-color: violet;
+    height: 40px;
+    width: 230px;
+    background-color: hsla(256, 72%, 46%, 1);
+
 }
 
 .button:hover {
@@ -42,7 +43,7 @@
 .direita {
     margin-left: 650px;
     margin-top: 150px;
-    background-color:rgb(140, 64, 225);
+    background-color:rgb(85, 7, 173);
     z-index: 2;
 }
 
@@ -57,7 +58,7 @@
 
 
 .meio{
- background-color: rgb(125, 64, 224);
+ background-color: hsla(256, 72%, 46%, 1);
  border-radius: 50%;
  height: 110px;
  width: 120px;
@@ -69,9 +70,12 @@
 
 }   
 
+
+
 .borda-1 {
     color: red;
     margin-left: 50px;
+    
 }
 
 .borda-11 {
@@ -129,7 +133,7 @@
 }
 
 .borda {
-    border: 2px solid;
+    border: 2px none;
     border-radius:10px ;
     height: 20px;
     padding: 10px;
@@ -155,13 +159,11 @@ h2{
     padding: 20px;
 }
 
+h3 {
+    padding: 0px 15px;
+}
+
 h1{
     text-align: center;
     padding: 20px;
 }
-
-@media only screen and (max-width: 800px) {
-    .direita {
-        margin-left: 100px;
-    }
-    }
